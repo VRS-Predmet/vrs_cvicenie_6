@@ -24,9 +24,9 @@
 #include "gpio.h"
 
 // I2C slave device useful information
-#define 	LSM6DS0_DEVICE_ADDRESS		0xD7U
-#define 	LSM6DS0_WHO_AM_I_VALUE		0x6AU
-#define 	LSM6DS0_WHO_AM_I_ADDRES		0x0FU
+#define 	LSM6DSL_DEVICE_ADDRESS		0xD7U
+#define 	LSM6DSL_WHO_AM_I_VALUE		0x6AU
+#define 	LSM6DSL_WHO_AM_I_ADDRES		0x0FU
 
 
 void SystemClock_Config(void);
