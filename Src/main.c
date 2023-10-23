@@ -46,7 +46,7 @@ int main(void)
 
   while (1)
   {
-	  if(i2c_master_read_byte(LSM6DS0_DEVICE_ADDRESS, LSM6DS0_WHO_AM_I_ADDRES) == LSM6DS0_WHO_AM_I_VALUE)
+	  if(i2c_master_read_byte(LSM6DSL_DEVICE_ADDRESS, LSM6DSL_WHO_AM_I_ADDRES) == LSM6DSL_WHO_AM_I_VALUE)
 	  {
 		  LL_GPIO_TogglePin(GPIOB, LL_GPIO_PIN_3);
 	  }
