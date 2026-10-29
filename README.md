@@ -54,7 +54,7 @@ Vytvoriť aplikáciu, ktorá bude posielať dáta získané zo senzorov (LPS25HB
 
 ### Úlohy
 
-1. Vytvorenie vlastného projektu pomocou CubeMX a vlastného git repozitára - viditeľné commity, nastavenie ".gitignore".
+1. Vytvorenie vlastného projektu pomocou CubeMX (**s využitím LL knižnice !**) a vlastného git repozitára - viditeľné commity, nastavenie ".gitignore".
 
 2. Vytvorenie funkcii v zdrojovom súbore "i2c.c" pre čítanie a zápis dát po I2C zbernici s možnosťou single aj multi byte prenosu (čítanie/zápis). Ak hodnota registra pozostáva z viacerých bytov, musí sa použit multi-byte prenos a byť vyčítaná naraz (nie postupne po bytoch vo viacerych čítaniach). Funckie z "i2c.c/h" nesmú byť priamo používané v knižnici senzora ale musia byť registrované ako "callback funkcie" (oddelenie konfiguracie MCU od konfiguracie senzora a jeho aplikacie). (**3 body**)
 
